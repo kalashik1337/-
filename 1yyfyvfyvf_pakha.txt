@@ -1,0 +1,142 @@
+2 1
+// ConsoleApplication3.cpp: определяет точку входа для консольного приложения.
+//
+
+#include "stdafx.h"
+
+
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+int main()
+{
+	cout << "Pavel" << endl;
+	system("pause");
+	return 0;
+}
+2 2
+/*
+#include "stdafx.h"
+
+
+#include <iostream>
+int main()
+
+{
+	using namespace std;
+	int farlong;
+	int x;
+	farlong = 220;
+	cout << "Enter the distance in furlongs and convert it to yards:";
+	cout<< endl;
+	cin >> x;
+	system("cls");
+	cout << x << " farlong=" << farlong * x << " yard";
+	cin.get();
+	cin.get();
+	return 0;
+
+}
+3 2
+*/
+// ConsoleApplication3.cpp: определяет точку входа для консольного приложения.
+//
+#include "stdafx.h"
+
+
+#include <iostream>
+/*
+using namespace std;
+const double d = 0.0254;
+const double f = 12;
+const double pb= 2.2;
+
+int main()
+
+{
+	double ftheight, dheight, mass;
+	cout << "please enter your height (ft) here : ";
+	cin >> ftheight;
+	cout << "please enter your height (d) here:";
+	cin >> dheight;
+	cout << " please enter your mass(pb) here:";
+	cin >> mass;
+	mass = mass / pb;// pb in kg
+	ftheight = ftheight * f;// ft in d 
+	dheight = (dheight + ftheight)*d;
+	double BMI = mass / (dheight + dheight);
+	cout << BMI << endl;
+	return 0;
+}
+*/
+3.3
+// ConsoleApplication4.cpp: определяет точку входа для консольного приложения.
+//
+
+
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+
+
+
+int main()
+{
+	double km, l;
+	cout << "km:";
+	cin >> km;
+	cout << "l:";
+	cin >> l;
+	cout << " result:" << l / (km / 100) << endl;
+
+	return 0;
+}
+2ю4
+// ConsoleApplication9.cpp: определяет точку входа для консольного приложения.
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+int main()
+{
+	double cels, fahr;
+	cout << "Please enter a celsius value: ";
+	cin >> cels;
+	cout << cels << "degrees Celsius is " << (cels * 1.8 + 32.0) << "degrees Fahrenheit\n";
+	return 0;
+}
+3.1
+// ConsoleApplication3.cpp: определяет точку входа для консольного приложение.
+#include "stdafx. h"
+#include <iostream>;
+using namespace std;
+const double d = 2.54;
+const double f = 30.48;
+
+int main()
+{
+	int ent;
+	cout << "please enter here : _";
+		cin >> ent;
+	cout << "your height is " << ent << "d. or" << ent / f << "f."	<<endl;
+	return 0;
+}
+2.3
+// ConsoleApplication6.cpp: определяет точку входа для консольного приложения.
+//
+#include "stdafx.h"
+#include <iostream>;
+using namespace std;
+void first_second() {
+	cout << "Three blind mice\n";
+}
+void three_four(){
+cout << "See how they run\n";
+int main()
+{
+first_second();
+first_second();
+three_four();
+three_four();
+return 0;
+}
+
